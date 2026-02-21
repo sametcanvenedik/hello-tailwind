@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,7 +34,6 @@
 
   <main class="relative flex items-center justify-center min-h-screen px-6">
 
-```
 <section class="backdrop-blur-xl bg-white/5 border border-white/10 rounded-3xl shadow-2xl p-10 md:p-16 max-w-2xl text-center">
 
   <!-- Small Label -->
@@ -57,22 +56,55 @@
   </p>
 
   <!-- Buttons -->
-  <div class="flex flex-col sm:flex-row gap-4 justify-center">
+ <div class="flex flex-col sm:flex-row gap-4 justify-center">
 
-    <button class="px-8 py-3 rounded-xl bg-blue-500 hover:bg-blue-400 transition-all duration-300 font-semibold shadow-lg shadow-blue-500/20">
-      Get Started
-    </button>
+  <a href="#start"
+     class="px-8 py-3 rounded-xl bg-blue-500 hover:bg-blue-400 transition-all duration-300 font-semibold shadow-lg shadow-blue-500/20">
+    Get Started
+  </a>
 
-    <button class="px-8 py-3 rounded-xl border border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-300">
-      Learn More
-    </button>
+  <a href="#about"
+     class="px-8 py-3 rounded-xl border border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-300">
+    Learn More
+  </a>
 
-  </div>
+</div>
 
 </section>
-```
 
   </main>
+
+  <!-- START SECTION -->
+<section id="start" class="relative py-32 px-6 text-center">
+  <h2 class="text-3xl md:text-5xl font-bold mb-6">
+    Welcome.
+  </h2>
+  <p class="text-slate-400 max-w-xl mx-auto text-lg">
+    This is the working area of your project.
+    You can now extend this into a real application,
+    connect Django backend, or build your product UI.
+  </p>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="relative py-32 px-6 bg-white/5 border-t border-white/10 text-center">
+  <h2 class="text-3xl md:text-5xl font-bold mb-6">
+    About This Setup
+  </h2>
+  <p class="text-slate-400 max-w-xl mx-auto text-lg leading-relaxed">
+    Built with TailwindCSS v4 using a local build pipeline.
+    No CDN. No runtime dependency.
+    Clean, production-style architecture.
+  </p>
+
+  <div class="mt-10">
+    <a href="https://github.com/"
+       target="_blank"
+       class="inline-block px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-slate-200 transition">
+       View Source
+    </a>
+  </div>
+</section>
 
 </body>
 </html>
