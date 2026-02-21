@@ -1,0 +1,26 @@
+{
+  "name": "hello-tailwind",
+  "version": "1.0.0",
+  "description": "Hello-Tailwind is a simple, lightweight website template built with **Tailwind CSS**. This project helps you quickly launch a basic, clean, and responsive site to showcase your content or projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sametcanvenedik/hello-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sametcanvenedik/hello-tailwind/issues"
+  },
+  "homepage": "https://github.com/sametcanvenedik/hello-tailwind#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.2.0",
+    "tailwindcss": "^4.2.0"
+  }
+}
